@@ -1,0 +1,36 @@
+### Get all users
+
+GET http://0.0.0.0:3000/users
+
+### Get all rentals
+
+GET http://0.0.0.0:3000/rentals?_embed=user&_embed=vehicle
+
+### Get all vehicles
+
+GET http://0.0.0.0:3000/vehicles
+
+### Get rental by userId
+
+GET http://0.0.0.0:3000/groups/1?_embed=assignment
+
+### Create new assignment
+
+POST http://0.0.0.0:3000/assignments
+Content-Type: application/json
+
+{
+    "id": "4",
+    "name": "Sample Assignment",
+    "description": "This is a sample assignment"
+}
+
+### Update assignment
+
+PUT http://0.0.0.0:3000/assignments/4
+Content-Type: application/json
+
+{
+    "name": "Sample Assignment Updated",
+    "description": "This is a sample assignment updated"
+}

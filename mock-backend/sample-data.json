@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Harini priya",
+      "gender": "Female",
+      "address": "71,Avvaiyar Street",
+      "Phno": "7010579345",
+      "email": "harini@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Rathinavel",
+      "gender": "Male",
+      "address": "Perambalur",
+      "Phno": "8940268794",
+      "email": "rathu@gmail.com",
+      "password": "2345"
+    },
+    {
+      "id": "3",
+      "name": "Suvetha",
+      "gender": "Female",
+      "address": "Zamindhor colony",
+      "Phno": "7867984949",
+      "email": "suvetha@gmail.com",
+      "password": "3456"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "r1",
+      "userId": "1",
+      "vehicleId": "v1",
+      "startDate": "2024-12-28",
+      "endDate": "2025-01-02",
+      "source": "Coimbatore",
+      "destination": "Hyderabad",
+      "price":""
+    },
+    {
+      "id": "r2",
+      "userId": "2",
+      "vehicleId": "v2",
+      "startDate": "2024-07-07",
+      "endDate": "2024-07-12",
+      "source": "Chennai",
+      "destination": "Mysore",
+      "price":""
+    },
+    {
+      "id": "r3",
+      "userId": "3",
+      "vehicleId": "v3",
+      "startDate": "2024-07-05",
+      "endDate": "2024-07-09",
+      "source": "Karaikudi",
+      "destination": "Kanyakumari",
+      "price":""
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "v1",
+      "model": "Traveller",
+      "capacity":"18",
+      "color":"white"
+    },
+    {
+      "id": "v2",
+      "model": "Innova",
+      "capacity":"8",
+      "color":"blue"
+    },
+    {
+      "id": "v3",
+      "model": "Cheverolet",
+      "capacity":"9",
+      "color":"blue"
+    }
+  ],
+  "payments": [
+    {
+      "userId": "1",
+      "billno":"123"
+    },
+    {
+      "userId": "2",
+      "billno":"456"
+    },
+    {
+      "userId": "3",
+      "billno":"789"
+    }
+  ]
+}
